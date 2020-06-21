@@ -1,0 +1,31 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id                :bigint           not null, primary key
+#  email             :string
+#  fname             :string
+#  lname             :string
+#  sso_image         :string
+#  sso_refresh_token :string
+#  sso_token         :string
+#  sso_type          :string
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+one:
+  fname: MyString
+  lname: MyString
+  email: MyString
+  sso_token: MyString
+  sso_refresh_token: MyString
+  sso_type: MyString
+
+two:
+  fname: MyString
+  lname: MyString
+  email: MyString
+  sso_token: MyString
+  sso_refresh_token: MyString
+  sso_type: MyString
